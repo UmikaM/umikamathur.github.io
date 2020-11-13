@@ -47,6 +47,13 @@ img {
   padding: 40px;
 }
 
+/* media holds flex container and makes the page responsive. Helpful code and reference from https://stackoverflow.com/questions/51069321/change-flexbox-direction-on-different-resolution ,slightly modified */ 
+@media (max-width: 800px) { 
+  .flex-container {     
+    flex-direction: column;   
+  } 
+}
+
 
 /* using the css grid, I defined two columns each and three rows (found code through this helpful link) https://tobiasahlin.com/blog/common-flexbox-patterns/#3x3-grid */
 .grid  {   
